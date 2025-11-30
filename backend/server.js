@@ -25,7 +25,7 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
-const JWT_SECRET = "mysecretkey";
+const JWT_SECRET = "123456";
 
 function auth(req, res, next) {
   const authHeader = req.headers.authorization;
